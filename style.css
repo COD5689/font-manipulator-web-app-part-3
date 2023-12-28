@@ -1,0 +1,50 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer{
+    position: fixed;
+    color: grey;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    line-height: 4;
+    text-align: center;
+}
+
+.note{
+    font-size: 15px;
+    color: black;
+}
+
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: lightslategray;
+    color: whitesmoke;
+}
+
+h3{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+
+video{
+    animation-name: video;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes video{
+    from{box-shadow: 5px 5px 5px rgb(0, 255, 221);}
+    to{box-shadow: 10px 10px 5px rgb(130, 41, 255);}
+}
